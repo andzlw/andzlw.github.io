@@ -82,7 +82,7 @@
 ## 语言
 ### c++
 ### python
-[REF1](CH5\Learning Python, 5th Edition.pdf)  
+[REF1](CH5/Learning Python, 5th Edition.pdf)  
 [REF2](CH5/README.txt)
 
 

@@ -1,0 +1,93 @@
+Index: map.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>##DACVinci架构熟悉\r\n\r\n## Ai core指令集及演讲逻辑\r\n\r\n## ISG&Generator上手引导\r\n\r\n## DaVinci验证引导\r\n\r\n## 培训材料共享\r\n\r\n## 工具及基本技能\r\n- c++\r\n- vcs  \r\n\r\n## 验证活动\r\n![img](验证活动.png \"huodong\")\r\n\r\n##表格\r\n|name|age|\r\n|----|----|\r\n使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/map.md b/map.md
+--- a/map.md	(revision b70e5ac91abed3da44a56107ff79420f939f68ce)
++++ b/map.md	(date 1628387842024)
+@@ -1,4 +1,4 @@
+-##DACVinci架构熟悉
++## DACVinci架构熟悉
+ 
+ ## Ai core指令集及演讲逻辑
+ 
+@@ -13,11 +13,8 @@
+ - vcs  
+ 
+ ## 验证活动
+-![img](验证活动.png "huodong")
++
+ 
+-##表格
+-|name|age|
+-|----|----|
+-使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
++
+ 
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"34d6e9e1-a525-4a37-bfc0-5be273c96197\" name=\"Default Changelist\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/map.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/map.md\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/map.md\" root0=\"FORCE_HIGHLIGHTING\" root1=\"SKIP_INSPECTION\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1wQHgYxgVEEvXmNdRnoBUdtZ4hY\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"34d6e9e1-a525-4a37-bfc0-5be273c96197\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1628384003203</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1628384003203</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision c4f587000c79edb023e5cbe71c8eaed1e1356b65)
++++ b/.idea/workspace.xml	(date 1628387442944)
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="34d6e9e1-a525-4a37-bfc0-5be273c96197" name="Default Changelist" comment="">
++    <list default="true" id="34d6e9e1-a525-4a37-bfc0-5be273c96197" name="Default Changelist" comment="up">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/map.md" beforeDir="false" afterPath="$PROJECT_DIR$/map.md" afterDir="false" />
+     </list>
+@@ -11,6 +11,12 @@
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+   <component name="Git.Settings">
++    <option name="PUSH_TAGS">
++      <GitPushTagMode>
++        <option name="argument" value="--follow-tags" />
++        <option name="title" value="Current Branch" />
++      </GitPushTagMode>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="HighlightingSettingsPerFile">
+@@ -36,6 +42,29 @@
+       <option name="presentableId" value="Default" />
+       <updated>1628384003203</updated>
+     </task>
++    <task id="LOCAL-00001" summary="up">
++      <created>1628387333176</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1628387333176</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="up" />
++    <option name="LAST_COMMIT_MESSAGE" value="up" />
++  </component>
+ </project>
+\ No newline at end of file
